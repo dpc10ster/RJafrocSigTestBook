@@ -1,0 +1,17 @@
+{
+    "dialog-state": {
+        "query": "RJafrocRocBook",
+        "path": "",
+        "regex": false,
+        "caseSensitive": true,
+        "wholeWord": false,
+        "filePatterns": [],
+        "useGitGrep": false,
+        "excludeGitIgnore": false,
+        "excludeFilePatterns": [],
+        "resultsCount": 17,
+        "errorCount": 0,
+        "replaceErrors": "",
+        "projectRelative": true
+    }
+}
