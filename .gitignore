@@ -7,5 +7,7 @@ _RJafroc_files
 rsconnect
 docs/
 _bookdown_files
+
 *.rds
 *.log
+

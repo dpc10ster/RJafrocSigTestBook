@@ -55,23 +55,55 @@ for (i in 1:length(ncp))
 fCrit_2_10 <- fCrit # convention fCrit_ndf_ddf
 ```
 
-![](15b-fdistribution_files/figure-latex/unnamed-chunk-1-1.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-1-2.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-1-3.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-1-4.pdf) 
+<img src="15b-fdistribution_files/figure-html/unnamed-chunk-1-1.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-1-2.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-1-3.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-1-4.png" width="672" />
 
 
-
-\begin{tabular}{l|r|r|r|r|r}
-\hline
-  & ndf & ddf & fCrit & ncp & pFgtFCrit\\
-\hline
-A & 2 & 10 & 4.102821 & 0 & 0.0500000\\
-\hline
-B & 2 & 10 & 4.102821 & 2 & 0.1775840\\
-\hline
-C & 2 & 10 & 4.102821 & 5 & 0.3876841\\
-\hline
-D & 2 & 10 & 4.102821 & 10 & 0.6769776\\
-\hline
-\end{tabular}
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> ndf </th>
+   <th style="text-align:right;"> ddf </th>
+   <th style="text-align:right;"> fCrit </th>
+   <th style="text-align:right;"> ncp </th>
+   <th style="text-align:right;"> pFgtFCrit </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> A </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.1775840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> C </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.3876841 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> D </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.6769776 </td>
+  </tr>
+</tbody>
+</table>
 
 ## Comments
 
@@ -105,31 +137,87 @@ The larger that non-centrality parameter, the greater the shift to the right of 
 
 ## Effect of `ncp` for `ndf` = 2 and `ddf` = 100
 
-![](15b-fdistribution_files/figure-latex/unnamed-chunk-3-1.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-3-2.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-3-3.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-3-4.pdf) 
+<img src="15b-fdistribution_files/figure-html/unnamed-chunk-3-1.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-3-2.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-3-3.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-3-4.png" width="672" />
 
 
-
-\begin{tabular}{l|r|r|r|r|r}
-\hline
-  & ndf & ddf & fCrit & ncp & pFgtFCrit\\
-\hline
-A & 2 & 10 & 4.102821 & 0 & 0.0500000\\
-\hline
-B & 2 & 10 & 4.102821 & 2 & 0.1775840\\
-\hline
-C & 2 & 10 & 4.102821 & 5 & 0.3876841\\
-\hline
-D & 2 & 10 & 4.102821 & 10 & 0.6769776\\
-\hline
-E & 2 & 100 & 3.087296 & 0 & 0.0500000\\
-\hline
-F & 2 & 100 & 3.087296 & 2 & 0.2199264\\
-\hline
-G & 2 & 100 & 3.087296 & 5 & 0.4910802\\
-\hline
-H & 2 & 100 & 3.087296 & 10 & 0.8029764\\
-\hline
-\end{tabular}
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> ndf </th>
+   <th style="text-align:right;"> ddf </th>
+   <th style="text-align:right;"> fCrit </th>
+   <th style="text-align:right;"> ncp </th>
+   <th style="text-align:right;"> pFgtFCrit </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> A </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.1775840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> C </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.3876841 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> D </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.6769776 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.2199264 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> G </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.4910802 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> H </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.8029764 </td>
+  </tr>
+</tbody>
+</table>
 
 ## Comments
 
@@ -158,39 +246,119 @@ H & 2 & 100 & 3.087296 & 10 & 0.8029764\\
 
 ## Effect of `ncp` for `ndf` = 1, `ddf` = 100
 
-![](15b-fdistribution_files/figure-latex/unnamed-chunk-5-1.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-5-2.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-5-3.pdf) ![](15b-fdistribution_files/figure-latex/unnamed-chunk-5-4.pdf) 
+<img src="15b-fdistribution_files/figure-html/unnamed-chunk-5-1.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-5-2.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-5-3.png" width="672" /><img src="15b-fdistribution_files/figure-html/unnamed-chunk-5-4.png" width="672" />
 
 
-
-\begin{tabular}{l|r|r|r|r|r}
-\hline
-  & ndf & ddf & fCrit & ncp & pFgtFCrit\\
-\hline
-A & 2 & 10 & 4.102821 & 0 & 0.0500000\\
-\hline
-B & 2 & 10 & 4.102821 & 2 & 0.1775840\\
-\hline
-C & 2 & 10 & 4.102821 & 5 & 0.3876841\\
-\hline
-D & 2 & 10 & 4.102821 & 10 & 0.6769776\\
-\hline
-E & 2 & 100 & 3.087296 & 0 & 0.0500000\\
-\hline
-F & 2 & 100 & 3.087296 & 2 & 0.2199264\\
-\hline
-G & 2 & 100 & 3.087296 & 5 & 0.4910802\\
-\hline
-H & 2 & 100 & 3.087296 & 10 & 0.8029764\\
-\hline
-I & 1 & 100 & 3.936143 & 0 & 0.0500000\\
-\hline
-J & 1 & 100 & 3.936143 & 2 & 0.2883607\\
-\hline
-K & 1 & 100 & 3.936143 & 5 & 0.6004962\\
-\hline
-L & 1 & 100 & 3.936143 & 10 & 0.8793619\\
-\hline
-\end{tabular}
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> ndf </th>
+   <th style="text-align:right;"> ddf </th>
+   <th style="text-align:right;"> fCrit </th>
+   <th style="text-align:right;"> ncp </th>
+   <th style="text-align:right;"> pFgtFCrit </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> A </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> B </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.1775840 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> C </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.3876841 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> D </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 4.102821 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.6769776 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> F </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.2199264 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> G </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.4910802 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> H </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.8029764 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> I </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.936143 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0500000 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> J </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.936143 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.2883607 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> K </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.936143 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0.6004962 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> L </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.936143 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 0.8793619 </td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Comments
@@ -206,41 +374,67 @@ L & 1 & 100 & 3.936143 & 10 & 0.8793619\\
 * In significance testing generally `ndf` = I -1. 
 * It more likely that the NH will be rejected with increasing numbers of treatments.
 
-
-\begin{tabular}{r|r|r}
-\hline
-ndf & ddf & fCrit\\
-\hline
-1 & 100 & 3.936143\\
-\hline
-2 & 100 & 3.087296\\
-\hline
-5 & 100 & 2.305318\\
-\hline
-10 & 100 & 1.926692\\
-\hline
-12 & 100 & 1.850255\\
-\hline
-15 & 100 & 1.767530\\
-\hline
-20 & 100 & 1.676434\\
-\hline
-\end{tabular}
+<table class="table table-striped" style="width: auto !important; ">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> ndf </th>
+   <th style="text-align:right;"> ddf </th>
+   <th style="text-align:right;"> fCrit </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.936143 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 3.087296 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 2.305318 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 1.926692 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 12 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 1.850255 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 15 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 1.767530 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 1.676434 </td>
+  </tr>
+</tbody>
+</table>
 
 
 ### Fig. J 
 * This corresponds to `ncp` = 2, `ndf` = 1 and `ddf` = 100.
-* Now `prob > fCrit_1_100` = 0.2883607, 0.1351602, 0.0168844, \ensuremath{8.9992114\times 10^{-4}}, \ensuremath{3.2584757\times 10^{-4}}, \ensuremath{8.1619807\times 10^{-5}}, \ensuremath{1.1084132\times 10^{-5}}, larger than the previous value 0.2199264.
+* Now `prob > fCrit_1_100` = 0.2883607, 0.1351602, 0.0168844, 8.9992114\times 10^{-4}, 3.2584757\times 10^{-4}, 8.1619807\times 10^{-5}, 1.1084132\times 10^{-5}, larger than the previous value 0.2199264.
 * The power has actually increased.
 
 ### Fig. K 
 * This corresponds to `ncp` = 5, `ndf` = 1 and `ddf` = 100`', 
-* Now `prob > fCrit_1_100` = 0.6004962, 0.3632847, 0.0699798, 0.0048836, 0.0018367, \ensuremath{4.6889533\times 10^{-4}}, \ensuremath{6.2058692\times 10^{-5}}, larger than the previous value 0.4910802. 
+* Now `prob > fCrit_1_100` = 0.6004962, 0.3632847, 0.0699798, 0.0048836, 0.0018367, 4.6889533\times 10^{-4}, 6.2058692\times 10^{-5}, larger than the previous value 0.4910802. 
 * Again, the power has actually increased.
 
 ### Fig. L 
 * This corresponds to `ncp` = 10, `ndf` = 1 and `ddf` = 100
-* Now `prob > fCrit_1_100` is  0.8793619, 0.7000168, 0.2459501, 0.0290856, 0.0123033, 0.0035298, \ensuremath{5.1213398\times 10^{-4}}, larger than the previous value 0.8029764. 
+* Now `prob > fCrit_1_100` is  0.8793619, 0.7000168, 0.2459501, 0.0290856, 0.0123033, 0.0035298, 5.1213398\times 10^{-4}, larger than the previous value 0.8029764. 
 * The power has actually increased.
 
 ## Summary

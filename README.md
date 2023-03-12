@@ -18,7 +18,7 @@ See [this link](https://dpc10ster.github.io/ai-froc-research/) for a summary of 
 
 # Contributing to this book {-}
 
-Questions? Raise an `Issue` on the `GitHub` [interface](https://github.com/dpc10ster/RJafrocSigTestBook). Click on the `Issues` tab under `dpc10ster/RJafrocRocBook`, then click on `New issue`. This way contributions from users automatically become part of the `GitHub` documentation/history of the book.
+Questions? Raise an `Issue` on the `GitHub` [interface](https://github.com/dpc10ster/RJafrocSigTestBook). Click on the `Issues` tab under `dpc10ster/RJafrocSigTestBook`, then click on `New issue`. This way contributions from users automatically become part of the `GitHub` documentation/history of the book.
 
 
 
