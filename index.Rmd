@@ -13,6 +13,7 @@ description: "Artificial intelligence and observer performance book based on RJa
 ---
 
 
+
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
